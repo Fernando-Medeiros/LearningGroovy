@@ -3,7 +3,7 @@ import groovy.transform.Canonical
 import java.time.OffsetDateTime
 
 @Canonical
-class Entity extends BaseEntity implements IEntity {
+class Entity extends BaseEntity implements IEntity, Serializable {
     String name
     String lastName
     UUID token = UUID.randomUUID()
