@@ -5,8 +5,8 @@ import Domain.Entity
 import Domain.IEntity
 
 static void main(String[] args) {
-  BaseEntity FirstCustomer = new Entity(UUID.randomUUID(), "Victor", "Rotciv")
-  IEntity LastCustomer = new Entity("Mike", "Ekim")
+  BaseEntity FirstCustomer = new Entity(name: "Victor", lastName: "Rotciv")
+  IEntity LastCustomer = new Entity(name: "Mike", lastName: "Ekim")
 
   FirstCustomer.setName(FirstCustomer.getName().toUpperCase())
   LastCustomer.setLastName(LastCustomer.getLastName().toUpperCase())
