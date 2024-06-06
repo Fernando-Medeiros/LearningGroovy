@@ -1,3 +1,4 @@
+import Closures.InExamples
 import Closures.ItExamples
 import Domain.BaseEntity
 import Domain.Entity
@@ -14,4 +15,5 @@ static void main(String[] args) {
   println LastCustomer.toString()
 
   new ItExamples()
+  new InExamples()
 }
