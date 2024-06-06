@@ -3,6 +3,7 @@ import Closures.ItExamples
 import Domain.BaseEntity
 import Domain.Entity
 import Domain.IEntity
+import FileIO.FileManager
 
 static void main(String[] args) {
   BaseEntity FirstCustomer = new Entity(name: "Victor", lastName: "Rotciv")
@@ -16,4 +17,5 @@ static void main(String[] args) {
 
   new ItExamples()
   new InExamples()
+  new FileManager()
 }
